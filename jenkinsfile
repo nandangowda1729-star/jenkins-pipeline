@@ -1,2 +1,0 @@
-pipelin{ 
-    agent { label 'master' }
