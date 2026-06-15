@@ -2,7 +2,7 @@ pipeline {
       agent any 
            stages { 
                stage('Greeting') { 
-                   steps { greeting('Jenkins') 
+                   steps { greeting('label') 
                                   } 
                   } 
           }
